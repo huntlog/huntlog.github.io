@@ -6,7 +6,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Dear hunt,`,
   },
   plugins: [
     {
@@ -15,8 +15,8 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Article`,
+            slug: `/article`,
           },
           {
             title: `About`,
@@ -25,12 +25,16 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Facebook`,
+            url: `https://www.facebook.com/profile.php?id=100000531856732`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/yeojunyoung/`,
+          },
+          {
+            name: `Website`,
+            url: `https://prain.com/hunt`,
           },
         ],
       },
@@ -45,9 +49,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `hunt's articles`,
+        short_name: `huntlog`,
+        description: `what hunt said & what we learned`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
